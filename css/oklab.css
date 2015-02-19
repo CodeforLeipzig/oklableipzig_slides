@@ -45,29 +45,3 @@ span.white {
 .ok-lab-red .reveal .state-background {
     background: rgba(254, 126, 117, 1.0 );
 }
-
-#stamp:after {
-    content: "Leipzig";
-    position: absolute;
-    bottom: 180px;
-    right: 30px;
-    z-index: 1;
-    font-family: 'Droid Sans Mono', monospace;
-    -webkit-transform: rotate(-15deg); /* Safari */
-    -moz-transform: rotate(-15deg); /* Firefox */
-    -ms-transform: rotate(-15deg); /* IE */
-    -o-transform: rotate(-15deg); /* Opera */
-    transform: rotate(-15deg);
-    font-size: 70px;
-    color: #c00;
-    border:solid 4px #c00;
-    padding: 15px;
-    border-radius: 5px;
-    zoom: 1;
-    filter: alpha(opacity=90);
-    opacity: 0.9;
-    -webkit-text-shadow: 0 0 2px #c00;
-    text-shadow: 0 0 2px #c00;
-    box-shadow: 0 0 2px #c00;
-    background-color: rgba(255, 255, 255, 0.6);
-}
